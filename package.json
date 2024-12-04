@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "server": "npx parcel src/index.html",
+    "construir":"npx parcel build ./src/javascript/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jose Calatayud",
-  "license": "ISC",
+  "license": "Apache 2.0",
   "description": "Primer proyecto con node y npm",
+  "devDependencies": {
+    "cypress": "^13.16.0",
+    "parcel": "^2.13.2"
+  },
   "dependencies": {
     "jquery": "^3.7.1"
-  },
-  "devDependencies": {
-    "cypress": "^13.16.0"
   }
 }
-
