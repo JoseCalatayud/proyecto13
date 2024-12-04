@@ -1,0 +1,18 @@
+{
+  "name": "proyecto13",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Calatayud",
+  "license": "ISC",
+  "description": "Primer proyecto con node y npm",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "cypress": "^13.16.0"
+  }
+}
+
